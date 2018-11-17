@@ -1,0 +1,5 @@
+alias cp='cp -rv'
+alias rm='rm -v'
+alias mv='mv -v'
+alias nano='nano -CDSmli'
+alias lls='ls -lti'
