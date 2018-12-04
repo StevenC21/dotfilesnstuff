@@ -97,5 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+if [ -f ~/.zsh_aliases ]; then
+	. ~/.zsh_aliases
+fi
+
 setopt extended_glob
 PATH=$PATH:~/bin
